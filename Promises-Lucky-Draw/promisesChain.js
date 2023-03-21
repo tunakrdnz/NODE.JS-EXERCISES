@@ -12,10 +12,10 @@ function luckyDraw(player) {
     });
   }
 
-  const players = ['Joe', 'Sabrina', 'Caroline']
+  const players = ['Joe', 'Sabrina', 'Caroline'];
 
-  players.forEach(player => {
+  players.forEach((player) => {
     luckyDraw(player)
-      .then(resolve => console.log(resolve))
-      .catch(error => console.error(error))
-  })
+      .then((resolve) => console.log(resolve))
+      .catch((error) => console.error(error))
+  });
